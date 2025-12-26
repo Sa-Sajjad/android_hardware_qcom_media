@@ -15,10 +15,8 @@ cc_library_shared {
         "-D_MSM8974_",
         "-DMAX_RES_1080P",
         "-DMAX_RES_1080P_EBI",
-        "-DSUPPORT_CONFIG_INTRA_REFRESH",
         "-DUSE_CAMERA_METABUFFER_UTILS",
         "-DUSE_ION",
-        "-DUSE_NATIVE_HANDLE_SOURCE",
     ] + select(soong_config_variable("ANDROID", "target_board_platform"), {
         "msm8998": [
             "-D_PQ_",

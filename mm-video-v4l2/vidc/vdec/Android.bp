@@ -19,7 +19,6 @@ cc_library_shared {
         "-D_MSM8974_",
         "-D_QUERY_DISP_RES_",
         "-DADAPTIVE_PLAYBACK_SUPPORTED",
-        "-DALLOCATE_OUTPUT_NATIVEHANDLE",
         "-DFLEXYUV_SUPPORTED",
         "-DMAX_RES_1080P",
         "-DMAX_RES_1080P_EBI",
